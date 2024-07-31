@@ -14,7 +14,7 @@ app.listen(ServerConfig.PORT, async () => {
 try{
     const response=await mailsender.sendMail({
         from:ServerConfig.GMAIL_EMAIL,
-        to:'abc@gmmail.com',
+        to:'abc@gmail.com',
         subject:'Is the service working?',
         text:'Yes it is working'
     });
